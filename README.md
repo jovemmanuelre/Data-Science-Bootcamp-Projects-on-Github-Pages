@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome my Github Pages!
 
-You can use the [editor on GitHub](https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am Jov. Here I present all the projects and business cases that I worked on the Data Science bootcamp courses I took. 
+I used my knowledge in Regression, Classification, Clustering, Basic Dendograms, Neural Networks, and Deep Learning to work on these projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#REGRESSION
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Project 1: Simple Linear Regression
+I created a simple regression model for a sample real estate dataset using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn libraries in Python to understand and describe the causal relationship between Price and Size of the real estate properties.
