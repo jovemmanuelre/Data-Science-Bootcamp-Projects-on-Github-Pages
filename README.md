@@ -16,3 +16,10 @@ I discovered that..
 ## Project 3: Simple Linear Regression with sklearn
 Instead of Statsmodels, here I used sklearn, with Pandas, Numpy, Matplotlib, and Seaborn, to create a Simple Linear Regression model in Python and predict the price given the size of the real estate property.
 My prediction has x accuracy rate.
+
+
+# CLUSTERING
+
+## Project 4: Clustering the Countries
+I did Clustering in Python using Matplotlib to plot the location of all countries in a graph. Using their respective latitudes and longitudes, I clustered the countries into 7. The graph shows the location of the countries per continent.
+
