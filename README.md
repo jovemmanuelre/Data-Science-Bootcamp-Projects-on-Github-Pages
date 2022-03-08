@@ -9,12 +9,10 @@ I used my knowledge in Regression, Classification, Clustering, Basic Dendograms,
 I created a simple regression model for a sample real estate dataset using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn libraries in Python to understand and describe the causal relationship between Price and Size of the real estate properties.
 I discovered that..
 
-![Regression Summary](/images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png)
+![Regression Summary](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png)
 Here is the Regression Summary. I show here the..
 
-<img src="https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/blob/main/images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png" alt="drawing" width="200" height="200"/>
-
-![Regression Summary](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png)
+![Graph](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png)
 Here is the graph showing the Linear relationship between Price and Size. As the size of a real estate increases, so does the price.
 
 ## [Project 2: Multiple Linear Regression with Dummies](https://github.com/jovemmanuelre/Multiple-Linear-Regression-with-Dummies)
