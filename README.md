@@ -12,7 +12,7 @@ I discovered that..
 ![Regression Summary](/images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png)
 Here is the Regression Summary. I show here the..
 
-<img src="/images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png" alt="drawing" width="200" height="200"/>
+<img src="https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/blob/main/images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png" alt="drawing" width="200" height="200"/>
 
 ![Regression Summary](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png)
 Here is the graph showing the Linear relationship between Price and Size. As the size of a real estate increases, so does the price.
