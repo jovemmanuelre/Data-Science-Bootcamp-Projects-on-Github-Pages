@@ -47,3 +47,7 @@ What made this different from the first, and what did I discover?
 
 
 ## Project 12: Basic Neural Network with Tensorflow
+
+
+## Project 13: Deep Neural Network for MNIST Classification
+I achieved 97.93% accuracy.
