@@ -19,12 +19,54 @@ Here is the graph showing the Linear relationship between Price and Size. As the
 Using the same sample real estate dataset above, I created a multiple regression model using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn in Python to understand the causal relationship among Price, Size, and the availability of Sea View at the real estate properties. Here, Sea View is categorical variable, so I transformed it into a Dummy Variable to create my Model.
 I discovered that..
 
+![Regression Summary](images/Linear%20Regressions/Multiple%20w:%20Dummies/Screen%20Shot%202022-02-04%20at%2012.28.32%20PM.png)
+Here is the Multiple Regression Summary. I show here the..
+
 ## [Project 3: Simple Linear Regression with sklearn](https://github.com/jovemmanuelre/Simple-Regression-sklearn)
 Instead of Statsmodels, here I used sklearn, with Pandas, Numpy, Matplotlib, and Seaborn, to create a Simple Linear Regression model in Python and predict the price given the size of the real estate property.
 My prediction has x accuracy rate.
 
 ## [Project 4: Linear Regression using Real Life Example](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
 Whaat is this Real Life Example? What did I create? What did I discover/predict? What is the outcome?
+
+![EngineV](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-EngineV.png)
+
+
+![PDF Engine](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_EngineV.png)
+
+
+![Mileage](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Mileage.png)
+
+
+![Regression Summary](https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/blob/main/images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Mileage.png)
+Here is the Multiple Regression Summary. I show here the..
+
+![Price](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Price.png)
+
+
+![PDF Price](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Price.png)
+
+
+![Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Year.png)
+
+
+![PDF_Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Year.png)
+
+
+![Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Price%20and%20the%20Features.png)
+
+
+![Log Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Log%20Price%20and%20the%20Features.png)
+
+
+![DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/DF_PF.png)
+
+
+![Described DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/DF_PF%20Described.png)
+
+
+![Sorted DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Sorted%20DF_PF.png)
+
 
 # CLUSTERING
 
