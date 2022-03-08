@@ -29,11 +29,16 @@ I did Clustering in Python using Matplotlib to plot the location of all countrie
 I clustered the countries into 7 categories based on their continents. The names of the continents are categorical data, so I mapped them into numerical data to show their clusters on a graph.
 What made this different from the first, and what did I discover?
 
-## Project 7: Market Segmentation with Clustering
+## Project 7: Basic Dendogram with Heatmap
+
+## Project 8: Market Segmentation with Clustering
 
 # CLASSIFICATION
 
-## Project 8: Simple and Multivariate Classification
+## Project 9: Simple and Multivariate Classification
 
 
-## Project 9: Classification with Binary Predictors
+## Project 10: Classification with Binary Predictors
+
+
+## Project 11: 
