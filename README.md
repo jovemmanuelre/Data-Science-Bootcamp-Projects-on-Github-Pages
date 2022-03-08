@@ -7,6 +7,12 @@ I used my knowledge in Regression, Classification, Clustering, Basic Dendograms,
 
 ## Project 1: Simple Linear Regression
 I created a simple regression model for a sample real estate dataset using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn libraries in Python to understand and describe the causal relationship between Price and Size of the real estate properties.
+I discovered that..
 
 ## Project 2: Multiple Linear Regression with Dummies
 Using the same sample real estate dataset above, I created a multiple regression model using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn in Python to understand the causal relationship among Price, Size, and the availability of Sea View at the real estate properties. Here, Sea View is categorical variable, so I transformed it into a Dummy Variable to create my Model.
+I discovered that..
+
+## Project 3: Simple Linear Regression with sklearn
+Instead of Statsmodels, here I used sklearn, with Pandas, Numpy, Matplotlib, and Seaborn, to create a Simple Linear Regression model in Python and predict the price given the size of the real estate property.
+My prediction has x accuracy rate.
