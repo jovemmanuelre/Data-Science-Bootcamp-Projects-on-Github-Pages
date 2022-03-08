@@ -1,31 +1,34 @@
-## Welcome my Github Pages!
+## Welcome to my Github Pages!
 
-I am Jov. Here I present all the projects and business cases that I worked on the Data Science bootcamp courses I took. 
-I used my knowledge in Regression, Classification, Clustering, Basic Dendograms, Neural Networks, and Deep Learning to work on these projects.
+I am Jov Ermitaño, a data scientist-in-training. On this Github Pages, I present all the projects that I worked on the online Data Science bootcamp course I took on Udemy.
+
+I present all the fundamental knowledge about Data Science I have learned from the course. I categorized the projects into 4: Regression, Clustering, Classification, and Deep Learning. I worked on all these Projects on Python.
+
+Disclaimer: I do not own any of the datasets used in these Projects or all the code I have learned from the bootcamp course, which I edited to suit my learning style. All of this is shared for educational purposes only. All rights are reserved to 365DataScience on Udemy. 
 
 
 # REGRESSION
 
 ## [Project 1: Simple Linear Regression](https://github.com/jovemmanuelre/Simple-Linear-Regression---StatsModels)
-I created a simple regression model for a sample real estate dataset using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn libraries in Python to understand and describe the causal relationship between Price and Size of the real estate properties.
-I discovered that..
+I created a simple regression model for a sample real estate dataset using Pandas, Statsmodels, Matplotlib, and Seaborn libraries to understand and describe the causal relationship between 'Price' and 'Size' of the real estate properties.
 
 ![Regression Summary](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png)
-Here is the Regression Summary. I show here the..
+After examining the Linear Regression results of the dataset with 'Price' as the dependent variable', I discovered that the 'Price' of the real estate property increases as the 'Size' does, as shown in the Regression Graph below:
 
 ![Graph](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png)
-Here is the graph showing the Linear relationship between Price and Size. As the size of a real estate increases, so does the price.
 
 ## [Project 2: Multiple Linear Regression with Dummies](https://github.com/jovemmanuelre/Multiple-Linear-Regression-with-Dummies)
-Using the same sample real estate dataset above, I created a multiple regression model using Pandas, Numpy, Statsmodels, Matplotlib, and Seaborn in Python to understand the causal relationship among Price, Size, and the availability of Sea View at the real estate properties. Here, Sea View is categorical variable, so I transformed it into a Dummy Variable to create my Model.
-I discovered that..
+Using the sample real estate dataset above, in this Project I performed Multiple Regression using Pandas, Statsmodels, Matplotlib, and Seaborn to understand the causal relationship among 'Price' and 'Size' of the real estate properties, 'Year' they were constructed, and the availability of 'Sea View'. 'Sea View' is categorical variable, so I mapped it into a Dummy Variable in order to perform the regression.
 
 ![Regression Summary](images/Linear%20Regressions/Multiple%20w:%20Dummies/Screen%20Shot%202022-02-04%20at%2012.28.32%20PM.png)
-Here is the Multiple Regression Summary. I show here the..
+With 'Price' as the dependent variable, the Regression results show that 'Size', 'Year', and 'Sea View' explain the variability of the 'Price', as indicated by the R-squared of 0.913 (1 meaning the Regression explains the entire variability of the dataset). I discovered that the 'Price' of the real estate properties is explained the 'Size', 'Year', and 'Sea View'.
 
 ## [Project 3: Simple Linear Regression with sklearn](https://github.com/jovemmanuelre/Simple-Regression-sklearn)
-Instead of Statsmodels, here I used sklearn, with Pandas, Numpy, Matplotlib, and Seaborn, to create a Simple Linear Regression model in Python and predict the price given the size of the real estate property.
-My prediction has x accuracy rate.
+Instead of Statsmodels, here I used sklearn, with Pandas, Matplotlib, and Seaborn in Python to create a Simple Linear Regression model and predict the price given the size of the real estate property.
+
+This is the Graph that shows the linear relationship between 'Price' and 'Size'.
+
+Using sklearn, I performed the Regression and could predict the 'Price' of the property given its 'Size with fewer lines of code!
 
 ## [Project 4: Linear Regression using Real Life Example](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
 Whaat is this Real Life Example? What did I create? What did I discover/predict? What is the outcome?
