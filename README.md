@@ -41,4 +41,6 @@ What made this different from the first, and what did I discover?
 ## Project 10: Classification with Binary Predictors
 
 
-## Project 11: 
+# DEEP LEARNING
+
+## Project 11: Basic Neural Network with Numpy
