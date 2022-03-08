@@ -28,3 +28,7 @@ I did Clustering in Python using Matplotlib to plot the location of all countrie
 ## Project 6: Clustering the Countries with Categorical Data
 I clustered the countries into 7 categories based on their continents. The names of the continents are categorical data, so I mapped them into numerical data to show their clusters on a graph.
 What made this different from the first, and what did I discover?
+
+# CLASSIFICATION
+
+## Project 7: Simple and Multivariate Classification
