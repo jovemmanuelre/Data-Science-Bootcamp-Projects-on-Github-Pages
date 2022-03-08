@@ -34,3 +34,6 @@ What made this different from the first, and what did I discover?
 # CLASSIFICATION
 
 ## Project 8: Simple and Multivariate Classification
+
+
+## Project 9: Classification with Binary Predictors
