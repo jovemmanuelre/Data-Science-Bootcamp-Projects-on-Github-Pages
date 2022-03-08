@@ -26,48 +26,50 @@ With 'Price' as the dependent variable, the Regression results show that 'Size',
 ## [Project 3: Simple Linear Regression with sklearn](https://github.com/jovemmanuelre/Simple-Regression-sklearn)
 Instead of Statsmodels, here I used sklearn, with Pandas, Matplotlib, and Seaborn in Python to create a Simple Linear Regression model and predict the price given the size of the real estate property.
 
+![Graph](images/Linear%20Regressions/Screen%20Shot%202022-03-09%20at%204.49.26%20AM.png)
 This is the Graph that shows the linear relationship between 'Price' and 'Size'.
 
-Using sklearn, I performed the Regression and could predict the 'Price' of the property given its 'Size with fewer lines of code!
+![sklearn code](images/Linear%20Regressions/Screen%20Shot%202022-03-09%20at%204.49.56%20AM.png)
+Using sklearn, I performed the Regression and could predict the 'Price' of the property given its 'Size' with fewer lines of code!
 
-## [Project 4: Linear Regression using Real Life Example](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
-Whaat is this Real Life Example? What did I create? What did I discover/predict? What is the outcome?
+## [Project 4: Linear Regression on a Real Business Case](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
+Whaat is this Real Life Example? What did I create? What are these PDFs? What did I discover/predict? What is the outcome?
 
-![EngineV](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-EngineV.png)
+I worked on a dataset of cars. It is a real business case. I used Numpy, Pandas, Statsmodels, Matplotlib, sklearn, and Seaborn to predict the 'Price' of a car given its Mileage, Engine Volume, and Year created. I removed the Outliers, checked the OLS assumptions, trained the model, checked for its Residuals, and tested my model (more information in the README of this project's repo).
 
+I checked the Probability Distribution Functions (PDF) of the Variables 'Price', 'Year', 'Mileage', and 'Engine Volume' to identify and weed out the Outliers and ensure the accuracy of my model.
 
-![PDF Engine](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_EngineV.png)
-
-
-![Mileage](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Mileage.png)
-
-
-![PDF Mileage](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Mileage.png)
-Here is the Multiple Regression Summary. I show here the..
-
+With Outliers:
 ![Price](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Price.png)
-
-
+Without Outliers:
 ![PDF Price](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Price.png)
 
+With Outliers:
+![Mileage](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Mileage.png)
+Without Outliers:
+![PDF Mileage](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Mileage.png)
 
+With Outliers:
+![EngineV](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-EngineV.png)
+Without Outliers:
+![PDF Engine](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_EngineV.png)
+
+With Outliers:
 ![Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Before-Year.png)
-
-
+Without Outliers:
 ![PDF_Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Year.png)
 
-
+Then, I performed the log transformation on the 'Price' to fix heteroscedasticity, which loses its predicive power on datasets with bigger values
 ![Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Price%20and%20the%20Features.png)
 
-
 ![Log Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Log%20Price%20and%20the%20Features.png)
-
+Now the PDFs show a Linear Regression Line.
 
 ![DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/DF_PF.png)
 
+I then trained and tested the model and achieved a 72% accuracy.
 
-![Described DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/DF_PF%20Described.png)
-
+I also checked the Residuals to verify whether the Residuals and variability of the outcome are normally distributed then created a table which shows the residuals and the differences between my Predictions and Targets.
 
 ![Sorted DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Sorted%20DF_PF.png)
 
