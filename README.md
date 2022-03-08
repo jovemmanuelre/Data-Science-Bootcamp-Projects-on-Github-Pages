@@ -17,12 +17,14 @@ I discovered that..
 Instead of Statsmodels, here I used sklearn, with Pandas, Numpy, Matplotlib, and Seaborn, to create a Simple Linear Regression model in Python and predict the price given the size of the real estate property.
 My prediction has x accuracy rate.
 
+## Project 4: Linear Regression using Real Life Example
+Whaat is this Real Life Example? What did I create? What did I discover/predict? What is the outcome?
 
 # CLUSTERING
 
-## Project 4: Clustering the Countries
+## Project 5: Clustering the Countries
 I did Clustering in Python using Matplotlib to plot the location of all countries in a graph. Using their respective latitudes and longitudes, I clustered the countries into 7. The graph shows the location of the countries per continent.
 
-## Project 5: Clustering the Countries with Categorical Data
+## Project 6: Clustering the Countries with Categorical Data
 I clustered the countries into 7 categories based on their continents. The names of the continents are categorical data, so I mapped them into numerical data to show their clusters on a graph.
 What made this different from the first, and what did I discover?
