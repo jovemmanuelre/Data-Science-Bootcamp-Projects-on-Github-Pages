@@ -92,7 +92,7 @@ This was the appearance of the dataset on a graph, without Clustering them:
 Countries clustered into 7:
 ![After Clustering](images/Clustering/Countries/Screen%20Shot%202022-02-04%20at%204.24.52%20PM.png)
 
-**## [Project 6: Clustering the Countries with Categorical Data](https://github.com/jovemmanuelre/Clustering-Countries-Categorical)**
+## **[Project 6: Clustering the Countries with Categorical Data](https://github.com/jovemmanuelre/Clustering-Countries-Categorical)**
 This time, I clustered the countries into 7 using the names of their Continents. Since the names are Categorical Variables, I mapped them first as Numerical Varaibles in order to perform the necessary clustering them and plot them show their clusters on a graph.
 
 Before:
