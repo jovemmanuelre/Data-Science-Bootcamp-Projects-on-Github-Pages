@@ -7,6 +7,7 @@ I present all the fundamental knowledge about Data Science that I have learned f
 Disclaimer: I do not own any of the datasets used in these Projects or all the code I have learned from the bootcamp course, which I studied and built on to work on the projects. All of this is shared for educational purposes only. All rights are reserved to 365DataScience on Udemy. 
 
 
+
 # REGRESSION
 
 ## [Project 1: Simple Linear Regression](https://github.com/jovemmanuelre/Simple-Linear-Regression---StatsModels)
@@ -30,6 +31,7 @@ Instead of Statsmodels, here I used sklearn, with Pandas, Matplotlib, and Seabor
 This is the Graph that shows the linear relationship between 'Price' and 'Size'.
 
 ![sklearn code](images/Linear%20Regressions/Screen%20Shot%202022-03-09%20at%204.49.56%20AM.png)
+
 Using sklearn, I performed the Regression and could predict the 'Price' of the property given its 'Size' with fewer lines of code!
 
 ## [Project 4: Linear Regression on a Real Business Case](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
@@ -61,7 +63,7 @@ With Outliers:
 Without Outliers:
 ![PDF_Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Year.png)
 
-Then, I performed the log transformation on the 'Price' to fix heteroscedasticity, to ensure that my model doesn't lose its predicive power on datasets with bigger values.
+Then, I performed the log transformation on the 'Price' to fix heteroscedasticity, to ensure that my model doesn't lose its predictive power on datasets with bigger values.
 ![Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Price%20and%20the%20Features.png)
 
 ![Log Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Log%20Price%20and%20the%20Features.png)
@@ -76,28 +78,32 @@ Finally, I verified that the Residuals and variability of the outcome are normal
 ![Sorted DF_PF](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Sorted%20DF_PF.png)
 
 
+
 # CLUSTERING
 
 ## [Project 5: Clustering the Countries](https://github.com/jovemmanuelre/Clustering-Countries)
 Using Matplotlib, I clustered all countries into 7, according to the data on their latitudes and longitudes. This allowed me to plot their location accurately on a graph.
 
-This is before Clustering them into 7, according to their latitudes and longitudes.
+This is before Clustering them into 7, according to their latitudes and longitudes:
 ![Before Clustering](images/Clustering/Countries/Screen%20Shot%202022-02-04%20at%204.13.26%20PM.png)
 
-Clustered Countries
+Clustered Countries:
 ![After Clustering](images/Clustering/Countries/Screen%20Shot%202022-02-04%20at%204.24.52%20PM.png)
 
 ## [Project 6: Clustering the Countries with Categorical Data](https://github.com/jovemmanuelre/Clustering-Countries-Categorical)
-This time around, I clustered the countries into 7 using the names of their Continents. Since that is a Categorical Variable, I mapped them first  first into numerical data to show their clusters on a graph.
+This time around, I clustered the countries into 7 using the names of their Continents. Since the names are Categorical Variables, I mapped them first into numerical data to show their clusters on a graph.
 
+Before:
 ![Before Categorization](images/Clustering/Clustering%20Categorical%20Data/Screen%20Shot%202022-02-18%20at%207.14.59%20PM.png)
 
+
+After mapping the Categorical Variable 'Continent':
 ![After Categorization](images/Clustering/Clustering%20Categorical%20Data/Screen%20Shot%202022-02-18%20at%207.15.14%20PM.png)
-After mapping the Categorical Variable 'Continent'
 
 ![Clustered Categorized Data](images/Clustering/Clustering%20Categorical%20Data/Screen%20Shot%202022-02-18%20at%207.18.51%20PM.png)
 
 ![Graph](images/Clustering/Clustering%20Categorical%20Data/Screen%20Shot%202022-02-18%20at%207.21.05%20PM.png)
+
 I was able to cluster the countries this time around based on their respective continents.
 
 ## [Project 7: Basic Dendogram with Heatmap](https://github.com/jovemmanuelre/Basic-Dendogram-with-Heatmap)
@@ -114,18 +120,20 @@ Here I identified the number of Clusters using the Elbow Method
 ![Cluster Graph](images/Classification/Market%20Segmentation%20Clustering/Screen%20Shot%202022-02-27%20at%2012.53.56%20PM.png)
 
 ## [Project 9: Iris Dataset Clustering Exercise]()
-Clustered the dataset into 2, 3, and 5. Compared it with the answer and affirmed that there are Discovered that clustering cannot be trusted at all times. Sometimes it seems like x clusters are a good solution, but in real life, there are more (or less).
-Used the Elbow Method.
+Clustered the dataset into 2, 3, and 5. Compared it with the answer and affirmed that there are Discovered that clustering cannot be trusted at all times. Sometimes it seems like x clusters are a good solution, but in real life, there are more (or less), despite using the Elbow Method.
+
+
 
 # CLASSIFICATION
 
 ## [Project 10: Simple and Multivariate Classification](https://github.com/jovemmanuelre/Simple-and-Multivariate-Classification)
-Copy the Readme from the Simple Classification. What is my goal here? Clarify.
-Why use Multivariate Classification?
+
 We can be omitting many causal factors in our simple logistic model, so we instead switch to a multivariate logistic regression model. Add the ‘interest_rate’, ‘march’, ‘credit’ and ‘previous’ estimators to our model and run the regression again. 
 Found the Confusion Matrix to estimate the accuracy of the model.
 
-Note that interest rate indicates the 3-month interest rate between banks and duration indicates the time since the last contact was made with a given consumer. The previous variable shows whether the last marketing campaign was successful with this customer. The march and may are Boolean variables that account for when the call was made to the specific customer and credit shows if the customer has enough credit to avoid defaulting. [{"metadata":{},"cell_type":"markdown","source":"We want to know whether the bank marketing strategy was successful, so we need to transform the outcome variable into Boolean values in order to run regressions."}]
+Note that interest rate indicates the 3-month interest rate between banks and duration indicates the time since the last contact was made with a given consumer. The previous variable shows whether the last marketing campaign was successful with this customer. The march and may are Boolean variables that account for when the call was made to the specific customer and credit shows if the customer has enough credit to avoid defaulting. 
+
+We want to know whether the bank marketing strategy was successful, so we need to transform the outcome variable into Boolean values in order to run regressions."}]
 
 Expanded the model to include other causal factors that might be omitted by the simple logistic model.
 
@@ -140,10 +148,10 @@ Compared the test confusion matrix and the test accuracy and compare them with t
 
 ![Confusion Matrix Results](images/Classification/Simple%20and%20Multivariate%20Classification/Screen%20Shot%202022-02-19%20at%208.42.21%20PM.png)
 
-## [Project 10: Classification with Binary Predictors](https://github.com/jovemmanuelre/Classification-with-Binary-Predictors)
+## [Project 11: Classification with Binary Predictors](https://github.com/jovemmanuelre/Classification-with-Binary-Predictors)
 Used the Confusion Matrix to compare the accuracy of the test and train data. Why did I use the Confusion Matrix?
 It was a 90-10 Split
-High log likelihood
+Misclassification rate is...
 
 ![Optimized Regression Summary](images/Classification/Classification%20with%20Binary%20Predictors/LogIt%20Regression%20Result.png)
 
@@ -156,7 +164,7 @@ High log likelihood
 
 # DEEP LEARNING
 
-## [Project 11: Basic Neural Network with Numpy](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-NumPy)
+## [Project 12: Basic Neural Network with Numpy](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-NumPy)
 Building a Basic Neural Network with Numpy
 My goal is that the ML algorithm must learn that this is the function that I randomly generated using Numpy.
 Used Learning Rate, Update Rules from Gradient Descent
@@ -166,11 +174,9 @@ Used matplotlib for the 2D and 3D graphs to check the Regression.
 
 ![Graph](images/Deep%20Learning/Building%20a%20Basic%20Neural%20Network%20with%20Numpy/Screen%20Shot%202022-03-02%20at%205.53.17%20AM.png)
 
-## [Project 12: Basic Neural Network with Tensorflow](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-Tensorflow)
+## [Project 13: Basic Neural Network with Tensorflow](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-Tensorflow)
 Here I recreated the basic Neural Network I did using Numpy in the previous example, using Tensorflow 2.0.
-Note: This intro is just the basics of TensorFlow which has way more capabilities and depth than that.
-
-# tf.keras.layers.Dense is basically implementing: output = activation(dot(input, weight) + bias)
+Note: This intro is just the basics of TensorFlow.
 
 While extracting the weights, bias, and outputs in my model is inessential, for this exercise I did extract them to verify whether my answers are correct.
 TensorFlow is flexible and powerful because it can even execute many other tasks with less code.
@@ -178,28 +184,20 @@ The graph is the same as the on in the previous exercise where I used NumPy.
 
 ![Graph](images/Deep%20Learning/Building%20a%20Basic%20Neural%20Network%20with%20Tensorflow/Screen%20Shot%202022-03-05%20at%206.29.31%20PM.png)
 
-## [Project 13: Deep Neural Network for MNIST Classification](https://github.com/jovemmanuelre/Deep-Neural-Network-for-MNIST-Classification)
-I achieved 97.93% accuracy. Where are the images?
-The problem we've chosen is referred to as the "Hello World" of deep learning because for most students it is the first deep learning algorithm they see.
+## [Project 14: Deep Neural Network for MNIST Classification](https://github.com/jovemmanuelre/Deep-Neural-Network-for-MNIST-Classification)
+Known as the "Hello World" of deep learning because for most students it is the first deep learning algorithm they see.
 
 The dataset is called MNIST and refers to handwritten digit recognition. You can find more about it on Yann LeCun's website (Director of AI Research, Facebook). He is one of the pioneers of what we've been talking about and of more complex approaches that are widely used today, such as covolutional neural networks (CNNs). 
 
-# by default, TF has training and testing datasets, but no validation sets thus we must split it on our own
-
-The dataset provides 70,000 images (28x28 pixels) of handwritten digits (1 digit per image). 
-
-The goal is to write an algorithm that detects which digit is written. Since there are only 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), this is a classification problem with 10 classes. 
+The goal is to write an algorithm that detects which digit is written. Since there are only 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), this is a classification problem with 10 classes. The dataset provides 70,000 images (28x28 pixels) of handwritten digits (1 digit per image). 
 
 Here I used 5 hidden layers with 3000 hidden units each and 10 Epochs.
 
-
-Normally, we would like to scale our data in some way to make the result more numerically stable
-
-Each time the code is rerun, we get a different accuracy as the batches are shuffled, the weights are initialized in a different way, etc.
-
 I achieved an accuracy of 97.93% percent with this model, after training it on my local computer for less than an hour.
 
-## [Project 14: Audiobooks Case with sklearn and Early Stopping](https://github.com/jovemmanuelre/Deep-Learning-Audiobooks-Case-Preprocessed-and-with-Early-Stopping)
+Where are the images?
+
+## [Project 15: Audiobooks Case with sklearn and Early Stopping](https://github.com/jovemmanuelre/Deep-Learning-Audiobooks-Case-Preprocessed-and-with-Early-Stopping)
 Where are the images?
 You are given data from an Audiobook app. Logically, it relates only to the audio versions of books. Each customer in the database has made a purchase at least once, that's why he/she is in the database. We want to create a machine learning algorithm based on our available data that can predict if a customer will buy again from the Audiobook company.
 
@@ -213,27 +211,8 @@ The task is simple: create a machine learning algorithm, which is able to predic
 
 This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s. 
 
-Preprocessed the data because this is real life data.
-
-It makes sense to shuffle the indices prior to balancing the dataset. 
-
-Using the code from the lesson (below), shuffle the indices and then balance the dataset.
-
-At the end of the course, you will have an exercise to create the same machine learning algorithm, with preprocessing done in this way.
-
-Note: This is more of a programming exercise rather than a machine learning one. Being able to complete it successfully will ensure you understand the preprocessing. 
-
 Here We shuffle the indices before balancing (to remove any day effects, etc.)
-
-# I wanted my targets to be integers so I can smoothly one-hot encode them with sparse_categorical_crossentropy.
-
-
-
-However, we still have to shuffle them AFTER we balance the dataset as otherwise, all targets that are 1s will be contained in the train_targets.
-
-This code is suboptimal, but is the easiest way to complete the exercise. Still, as we do the preprocessing only once, speed in not something we are aiming for.
 
 I used early stopping here. Why? to check if validation loss is increasing
 
 I achieved ~80% accuracy using this model.
-
