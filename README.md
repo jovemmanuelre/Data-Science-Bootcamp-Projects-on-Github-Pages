@@ -119,11 +119,27 @@ I used sklearn to preprocess the data, then used the Elbow Method to determine t
 I was able to cluster the customers into 4 based on their Loyalty and Satisfaction, shown by the Graph below. With the insight from this Graph, suitable marketing techniques may now be designed and used to target these customers.
 ![Cluster Graph](images/Classification/Market%20Segmentation%20Clustering/Screen%20Shot%202022-02-27%20at%2012.53.56%20PM.png)
 
-## [Project 9: Iris Dataset Clustering Exercise]()
+## [Project 9: Iris Dataset Clustering Exercise](https://github.com/jovemmanuelre/Clustering-Iris-Dataset.git)
 To be updated
 Clustered the dataset into 2, 3, and 5. Compared it with the answer and affirmed that there are Discovered that clustering cannot be trusted at all times, despite using the Elbow Method.
 
+The Iris flower dataset is one of the most popular ones for machine learning. 
 
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+
+There are 4 features: sepal length, sepal width, petal length, and petal width.
+
+Finally, import the CSV with the correct answers (iris_with_answers.csv) and check if the clustering worked as expected. Note that this is not how we usually go about clustering problems. If we have the answers prior to that, we would go for classification (e.g. a logistic regression).
+
+Examining the other scatter plot (petal length vs petal width), we see that in fact the features which actually make the species different are petals and NOT sepals!
+
+Note that 'real data' is the data observed in the real world (biological data)
+
+In fact, if you read about it, the original dataset has 3 sub-species of the Iris flower. Therefore, the number of clusters is 3.
+
+This shows us that:
+The Elbow method is imperfect (we might have opted for 2 or even 4) </li>
+K-means is very useful in moments where we already know the number of clusters - in this case: 3
 
 # CLASSIFICATION
 
