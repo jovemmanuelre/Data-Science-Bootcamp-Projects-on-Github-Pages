@@ -229,4 +229,8 @@ The targets are a Boolean variable (0 or 1). We are taking a period of 2 years i
 This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s. 
 
 ## Project 16: Absenteeism Case
-To be updated
+I created a logistic regression  model that will predict the probability of an individual being excessively absent from work. The logistic regression is a type of a regression model whose dependent variable is binary; that is, the latter can assume one of two values – 0 or 1, True or False, Yes or No. In this case therefore, considering the values of all the features, I wanted to predict whether the dependent variable will take the value of 0 or 1.
+ 
+In addition to numerous machine learning tools and techniques, I specifically used pandas to preprocess the data because it allows me to work with panel data. Moreover, pandas has various tools for handling data in a tabular format (a DataFrame). Finally as a data scientist, I want a more manual way of doing preprocessing because it gives me a higher level of control over my data.
+
+At the end, I stored my work as a Python module called ‘absenteeism_module’ to preserve it in a form suitable for further analysis.
