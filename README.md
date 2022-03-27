@@ -1,30 +1,30 @@
 # Welcome to my Bootcamp Portfolio!
 
-I am Jov Ermitaño, a data scientist-in-training. On this Github Pages, I present all the projects that I did in Python in the Udemy Data Science Bootcamp online.
+I am Jov Ermitaño, a data scientist-in-training. On this Github Pages, I present all the Python projects I did in the online Udemy Data Science Bootcamp.
 
-In this page, I present all the fundamental knowledge about Data Science that I have learned from the course, categorized into 4: Regression, Clustering, Classification, and Deep Learning. I worked on all these Projects 
+On this page, I present all the fundamental knowledge about Data Science that I have learned from the Bootcamp, categorized into 4: Regression, Clustering, Classification, and Deep Learning.
 
-Disclaimer: I do not own any of the datasets used in these Projects,and I and built on the code I learned in the Bootcamp to work on the projects below. All credits and rights reserved to Udemy 365DataScience. I only created this page as my practice for data science career.
+Disclaimer: I do not own any of the datasets used in these Projects, and I built on the code I learned in the Bootcamp to work on the projects below. All credits and rights reserved to Udemy 365DataScience. I only created this page as my practice for a data science career.
 
 
 
 # REGRESSION
 
 ## [Project 1: Simple Linear Regression](https://github.com/jovemmanuelre/Simple-Linear-Regression---StatsModels)
-I created a simple regression model for a sample real estate dataset using Pandas, Statsmodels, Matplotlib, and Seaborn libraries to understand and describe the causal relationship between 'Price' and 'Size' of the real estate properties.
+I created a simple regression model for a sample real estate dataset using Pandas, Statsmodels, Matplotlib, and Seaborn packages to understand and describe the causal relationship between 'Price' and 'Size' of the real estate properties.
 
 ![Regression Summary](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-04%20at%2012.18.23%20PM.png)
 
-After examining the Linear Regression results of the dataset with 'Price' as the dependent variable', I discovered that the 'Price' of the real estate property increases as the 'Size' does, as shown in the Regression Graph below:
+After examining the Linear Regression results of the dataset with 'Price' as the dependent variable, I discovered that the 'Price' of the real estate property increases as the 'Size' does, as shown in the Regression Graph below:
 
 ![Graph](images/Linear%20Regressions/Simple/Screen%20Shot%202022-02-08%20at%201.04.08%20PM.png)
 
 ## [Project 2: Multiple Linear Regression with Dummies](https://github.com/jovemmanuelre/Multiple-Linear-Regression-w**ith-Dummies)
-Using the sample real estate dataset above, I performed Multiple Regression using Pandas, Statsmodels, Matplotlib, and Seaborn to understand the causal relationship among 'Price' and 'Size' of the real estate properties, 'Year' they were constructed, and the availability of 'Sea View'. 'Sea View' is categorical variable, so I mapped it into a Dummy Variable in order to perform the regression.
+Using the sample real estate dataset from the Project 1, I performed Multiple Regression using Pandas, Statsmodels, Matplotlib, and Seaborn to understand the causal relationship among 'Price' and 'Size' of the real estate properties, 'Year' they were constructed, and the availability of 'Sea View'. 'Sea View' is categorical variable, so I mapped it into a Dummy Variable in order to perform the regression.
 
 ![Regression Summary](images/Linear%20Regressions/Multiple%20w:%20Dummies/Screen%20Shot%202022-02-04%20at%2012.28.32%20PM.png)
 
-With 'Price' as the dependent variable, the Regression results show that 'Size', 'Year', and 'Sea View' explain the variability of the 'Price', as indicated by the R-squared of 0.913 (1 meaning the Regression explains the entire variability of the dataset). I discovered that the 'Price' of the real estate properties is explained the 'Size', 'Year', and 'Sea View'.
+With 'Price' as the dependent variable, the Regression results show that 'Size', 'Year', and 'Sea View' explain the variability of the 'Price', as indicated by the R-squared of 0.913 (An R-squared of 1 means that the Regression explains the entire variability of the dataset). I discovered that the 'Price' of the real estate properties is explained by their 'Size', 'Year' they were made, and the availability of 'Sea View' in the units.
 
 ## [Project 3: Simple Linear Regression with sklearn](https://github.com/jovemmanuelre/Simple-Regression-sklearn)
 Instead of Statsmodels, here I used sklearn, with Pandas, Matplotlib, and Seaborn to create a Simple Linear Regression model and predict the price of the real estate property given its size.
@@ -34,12 +34,12 @@ This is the Graph that shows the linear relationship between the 'Price' and 'Si
 
 ![sklearn code](images/Linear%20Regressions/Screen%20Shot%202022-03-09%20at%204.49.56%20AM.png)
 
-Using sklearn, I performed the Regression and could predict the 'Price' of the property given its 'Size' with fewer lines of code than Statsmodels!
+Using sklearn, I created the Regression and could predict the 'Price' of the property given its 'Size' with fewer lines of code than Statsmodels!
 
 ## [Project 4: Linear Regression on a Real Business Case](https://github.com/jovemmanuelre/Practical-Case-Example-Regression-with-sklearn)
-I worked on a real life sample dataset of cars. I used Numpy, Pandas, Statsmodels, Matplotlib, sklearn, and Seaborn to do the following: preprocess the data, remove the Outliers, check the Ordinary Least Squares (OLS) assumptions, train the model, verify its Residuals, and test the model (more information in the README of this project's repo).
+Here I worked on a real life dataset of cars. I used Numpy, Pandas, Statsmodels, Matplotlib, sklearn, and Seaborn to do the following: preprocess the data, remove the Outliers, check the Ordinary Least Squares (OLS) assumptions, train the model, verify its Residuals, and test the model.
 
-My goal in this project was to predict the 'Price' of a car given its Mileage, Engine Volume, and the Year it was made.
+My goal in this project was to predict the 'Price' of a car given its Mileage and Engine Volume and the Year it was made.
 
 After preprocessing the data, I checked the Probability Distribution Functions (PDF) of the Variables 'Price', 'Year', 'Mileage', and 'Engine Volume' to identify and weed out the Outliers and ensure the accuracy of my model.
 
@@ -63,15 +63,15 @@ With Outliers:
 **Without Outliers:**
 ![PDF_Year](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/PDF_Year.png)
 
-I proceeded to check the OLS assumptions so I could optimally perform the Regression in this dataset.
+I then checked the OLS assumptions to be sure that Regression is the right model to create.
 
-I performed the log transformation on the 'Price' to fix heteroscedasticity, to ensure that my model doesn't lose its predictive power on datasets with bigger values.
+I performed the log transformation on the 'Price' to fix heteroscedasticity so that my model won't lose its predictive power on datasets with bigger values.
 ![Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Price%20and%20the%20Features.png)
 
 ![Log Price and Features](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Log%20Price%20and%20the%20Features.png)
-Now the PDFs of the Log Price with respect to the Features/Independent Variables show a Linear Regression Line.
+Now, the PDFs of the Log Price with respect to the features show a Linear Regression Line.
 
-I then trained and tested the model, and achieved a 72% accuracy in predicting the Price given the Features mentioned above.
+I then trained and tested the model, and achieved a 72% accuracy in predicting the Price given the features mentioned above.
 
 ![Residual Graph](images/Linear%20Regressions/Multiple%20Linear%20Regression%20Practical%20Example%20with%20sklearn/Screen%20Shot%202022-03-09%20at%205.42.23%20AM.png)
 
@@ -84,7 +84,7 @@ As a bonus, I verified that the Residuals and variability of the outcome are nor
 # CLUSTERING
 
 ## [Project 5: Clustering the Countries](https://github.com/jovemmanuelre/Clustering-Countries)
-Using Matplotlib, I clustered the countries in the dataset into 7, according to the data on their latitudes and longitudes. This allowed me to plot their location accurately on a graph.
+Using Matplotlib, I clustered the countries in the dataset into 7, according to the data on their latitudes and longitudes. This allowed me to plot their actual location accurately on a graph.
 
 This was the appearance of the dataset on a graph, without clustering them:
 ![Before Clustering](images/Clustering/Countries/Screen%20Shot%202022-02-04%20at%204.13.26%20PM.png)
@@ -93,7 +93,7 @@ Countries clustered into 7:
 ![After Clustering](images/Clustering/Countries/Screen%20Shot%202022-02-04%20at%204.24.52%20PM.png)
 
 ## [Project 6: Clustering the Countries with Categorical Data](https://github.com/jovemmanuelre/Clustering-Countries-Categorical)
-This time, I clustered the countries into 7 using the names of their Continents. Since the names are Categorical Variables, I mapped them first as Numerical Varaibles in order to perform the necessary clustering them and plot them show their clusters on a graph.
+This time, I clustered the countries into 7 based on their Continents. Since the names are Categorical Variables, I mapped them into a Dummy Variable in order to create the Clustering on a graph. 
 
 Before:
 ![Before Categorization](images/Clustering/Clustering%20Categorical%20Data/Screen%20Shot%202022-02-18%20at%207.14.59%20PM.png)
@@ -116,7 +116,7 @@ My goal in this project was to conduct an exploratory analysis to identify the t
 I used sklearn to preprocess the data, then used the Elbow Method to determine the appropriate number of clusters:
 ![Elbow Method](images/Classification/Market%20Segmentation%20Clustering/Screen%20Shot%202022-02-27%20at%2012.55.44%20PM.png)
 
-I was able to cluster the customers into 4 based on their Loyalty and Satisfaction, shown by the Graph below. With the insight from this Graph, suitable marketing techniques may now be designed and used to target these customers.
+I was able to cluster the customers into 4 based on their Loyalty and Satisfaction, as shown below. With the insight from this Graph, suitable marketing techniques may now be designed and used to target these customers.
 ![Cluster Graph](images/Classification/Market%20Segmentation%20Clustering/Screen%20Shot%202022-02-27%20at%2012.53.56%20PM.png)
 
 ## [Project 9: Iris Dataset Clustering Exercise](https://github.com/jovemmanuelre/Clustering-Iris-Dataset.git)
