@@ -1,10 +1,10 @@
 # Welcome to my Bootcamp Portfolio!
 
-I am Jov Ermitaño, a data scientist-in-training. On this Github Pages, I present all the projects that I worked on the online Data Science Bootcamp course I took on Udemy.
+I am Jov Ermitaño, a data scientist-in-training. On this Github Pages, I present all the projects that I did in Python in the Udemy Data Science Bootcamp online.
 
-I present all the fundamental knowledge about Data Science that I have learned from the course. I categorized the projects into 4: Regression, Clustering, Classification, and Deep Learning. I worked on all these Projects in Python.
+In this page, I present all the fundamental knowledge about Data Science that I have learned from the course, categorized into 4: Regression, Clustering, Classification, and Deep Learning. I worked on all these Projects 
 
-Disclaimer: I do not own any of the datasets used in these Projects or all the code I have learned from the bootcamp course, which I studied and built on to work on the projects below. All of this is shared for educational purposes only. All rights reserved to 365DataScience on Udemy. 
+Disclaimer: I do not own any of the datasets used in these Projects,and I and built on the code I learned in the Bootcamp to work on the projects below. All credits and rights reserved to Udemy 365DataScience. I only created this page as my practice for data science career.
 
 
 
@@ -229,6 +229,12 @@ The targets are a Boolean variable (0 or 1). We are taking a period of 2 years i
 This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s. 
 
 ## Project 16: Absenteeism Case
+![Grouped Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions%20Grouped.png)
+![Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions.png)
+![Unprocessed Data](images/Deep%20Learning/Absenteeism/Data%20Summary%20of%20Unprocessed%20Data.png)
+![With Month and Day of the Week](images/Deep%20Learning/Absenteeism/With%20Month%20and%20Day%20of%20the%20Week.png)
+![With Predictions](images/Deep%20Learning/Absenteeism/With%20Predictions.png)
+
 I created a logistic regression  model that will predict the probability of an individual being excessively absent from work. The logistic regression is a type of a regression model whose dependent variable is binary; that is, the latter can assume one of two values – 0 or 1, True or False, Yes or No. In this case therefore, considering the values of all the features, I wanted to predict whether the dependent variable will take the value of 0 or 1.
  
 In addition to numerous machine learning tools and techniques, I specifically used pandas to preprocess the data because it allows me to work with panel data. Moreover, pandas has various tools for handling data in a tabular format (a DataFrame). Finally as a data scientist, I want a more manual way of doing preprocessing because it gives me a higher level of control over my data.
