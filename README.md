@@ -120,51 +120,45 @@ I was able to cluster the customers into 4 based on their Loyalty and Satisfacti
 ![Cluster Graph](images/Classification/Market%20Segmentation%20Clustering/Screen%20Shot%202022-02-27%20at%2012.53.56%20PM.png)
 
 ## [Project 9: Iris Dataset Clustering Exercise](https://github.com/jovemmanuelre/Clustering-Iris-Dataset.git)
-To be updated
-Clustered the dataset into 2, 3, and 5. Compared it with the answer and affirmed that there are Discovered that clustering cannot be trusted at all times, despite using the Elbow Method.
+The Iris flower dataset is one of the most popular datasets for machine learning. This real data set is data observed in the real world and consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 4 features were measured from each sample: sepal length, sepal width, petal length, and petal width.
 
-The Iris flower dataset is one of the most popular ones for machine learning. 
+![Iris Unclustered and Unscaled](images/Clustering/Iris%20Flower%20Dataset/Unclustered%20and%20Unscaled%20-%20Iris.png)
+![Unscaled Iris](images/Clustering/Iris%20Flower%20Dataset/Unscaled%20-%20Iris.png)
 
-The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+I started by clustering the dataset into 2, 3, and 5, using the Elbow Method. 
+![Iris Elbow Method](images/Clustering/Iris%20Flower%20Dataset/Elbow%20Method%20-%20Iris.png)
 
-There are 4 features: sepal length, sepal width, petal length, and petal width.
+However, after examining the other scatter plot (petal length vs petal width), I discovered that in fact the features which actually make the species different are petals and NOT sepals!
+![Answers Sepal Size](images/Clustering/Iris%20Flower%20Dataset/Sepal%20Size%20%20Answers.png)
+![Answers Petal Size](images/Clustering/Iris%20Flower%20Dataset/Petal%20Size%20Answers.png)
 
-Finally, import the CSV with the correct answers (iris_with_answers.csv) and check if the clustering worked as expected. Note that this is not how we usually go about clustering problems. If we have the answers prior to that, we would go for classification (e.g. a logistic regression).
+I then compared the scatter plots and learned the Elbow Method, cannot be trusted at all times, as it only shows the potential optimal number of clusters, but doesn't provide the optimal number of clusters for a dataset.
 
-Examining the other scatter plot (petal length vs petal width), we see that in fact the features which actually make the species different are petals and NOT sepals!
+After researching, I confirmed thatthe original dataset has 3 sub-species of the Iris flower. Therefore, the number of clusters is 3.
+![Iris Scaled](images/Clustering/Iris%20Flower%20Dataset/Scaled%20-%20Iris.png)
+![Table of Iris Dataset Answers and Clustered](images/Clustering/Iris%20Flower%20Dataset/Table%20of%20Iris%20Dataset%20Answers%20and%20Clustered.png)
 
-Note that 'real data' is the data observed in the real world (biological data)
+I finished the project by import the CSV with the correct answers (iris_with_answers.csv) and checked if the clustering worked as expected. 
 
-In fact, if you read about it, the original dataset has 3 sub-species of the Iris flower. Therefore, the number of clusters is 3.
-
-This shows us that:
-The Elbow method is imperfect (we might have opted for 2 or even 4) </li>
-K-means is very useful in moments where we already know the number of clusters - in this case: 3
+Note: I am aware that this is not the usual way to work on clustering problems; I could've used classification. as I already had the answers.
 
 # CLASSIFICATION
 
 ## [Project 10: Simple and Multivariate Classification](https://github.com/jovemmanuelre/Simple-and-Multivariate-Classification)
-To be updated
-In this Project, I performed the multivariate logistic regression to include many causal factors in my model. 
-Add the ‘interest_rate’, ‘march’, ‘credit’ and ‘previous’ estimators to our model and run the regression again. 
-I also used the Confusion Matrix to estimate the accuracy of the model/
+My goal in this Project was to create a model that would tell whether the bank marketing strategy was successful. I expanded the model to include other causal factors that might be omitted by the simple logistic model. I used the multivariate logistic regression to include many causal factors such as the ‘interest_rate’, ‘march’, ‘credit’ and ‘previous’ estimators to improve the accuracy of my model.
 
 ![Regression Summary](images/Classification/Simple%20and%20Multivariate%20Classification/Screen%20Shot%202022-02-19%20at%208.30.48%20PM.png)
-Note that interest rate indicates the 3-month interest rate between banks and duration indicates the time since the last contact was made with a given consumer. The previous variable shows whether the last marketing campaign was successful with this customer. The march and may are Boolean variables that account for when the call was made to the specific customer and credit shows if the customer has enough credit to avoid defaulting.
-
- I transformed the outcome variable into Boolean values in order to run the regression.
+The 'interest rate' indicates the 3-month interest rate between banks and duration indicates the time since the last contact was made with a given consumer. The previous variable shows whether the last marketing campaign was successful with this customer. The 'march' and 'may' are Boolean variables that account for when the call was made to the specific customer and 'credit' shows if the customer has enough credit to avoid defaulting.
 
 ![Graph of Subs and Duration](images/Classification/Simple%20and%20Multivariate%20Classification/Screen%20Shot%202022-02-19%20at%208.32.20%20PM.png)
 
 ![Optimized Graph](images/Classification/Simple%20and%20Multivariate%20Classification/Screen%20Shot%202022-02-19%20at%208.32.34%20PM.png)
-My goal here was to create a model that would let me know whether the bank marketing strategy was successful. I expanded the model to include other causal factors that might be omitted by the simple logistic model.
 
 ![Confusion Matrix Results](images/Classification/Simple%20and%20Multivariate%20Classification/Screen%20Shot%202022-02-19%20at%208.42.21%20PM.png)
-Compared the test confusion matrix and the test accuracy and compare them with the train confusion matrix and the train accuracy.
+In addition, I used the Confusion Matrix to estimate the accuracy of the model. I compared the the test confusion matrix and the test accuracy with the train confusion matrix and the train accuracy.
 
 ## [Project 11: Classification with Binary Predictors](https://github.com/jovemmanuelre/Classification-with-Binary-Predictors)
-To be updated
-In this project,
+In this project, what did I do? What was my goal? and How did I do it?
 
 ![Optimized Regression Summary](images/Classification/Classification%20with%20Binary%20Predictors/LogIt%20Regression%20Result.png)
 
@@ -181,30 +175,25 @@ The Misclassification rate is the exact opposite of the accuracy rate of my mode
 # DEEP LEARNING
 
 ## [Project 12: Basic Neural Network with Numpy](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-NumPy)
-To be updated
-My goal is that the ML algorithm must learn that this is the function that I randomly generated using Numpy.
-Used Learning Rate, Update Rules from Gradient Descent.
+In this project, my goal was to create a basic Neural Network/ML algorithm that must learn that the function that I randomly generated using Numpy. I used Learning Rate and Update Rules from Gradient Descent to create the algorithm.
 
-Used matplotlib for the 2D and 3D graphs to check the Regression:
+As a bonus, I used matplotlib for the 2D and 3D graphs to check the Regression:
 ![3D](images/Deep%20Learning/Building%20a%20Basic%20Neural%20Network%20with%20Numpy/Screen%20Shot%202022-03-02%20at%205.53.04%20AM.png)
-
 ![Graph](images/Deep%20Learning/Building%20a%20Basic%20Neural%20Network%20with%20Numpy/Screen%20Shot%202022-03-02%20at%205.53.17%20AM.png)
 
 ## [Project 13: Basic Neural Network with Tensorflow](https://github.com/jovemmanuelre/Building-a-Basic-Neural-Network-with-Tensorflow)
-Here I recreated the basic Neural Network I did using Numpy in the previous example, using Tensorflow 2.0.
+In this project I recreated the basic Neural Network I did using Numpy in the previous example, using Tensorflow 2.0.
 
-While extracting the weights, bias, and outputs in my model is inessential, for this exercise I did extract them to verify whether my answers are correct.
-TensorFlow is flexible and powerful because it can even execute many other tasks with less code.
+While extracting the weights, bias, and outputs in my model is inessential, I did extract them in this project to verify whether my answers are correct.
 
-The graph is the same as the on in the previous exercise where I used NumPy:
+The graph is the same as the one in the previous exercise where I used NumPy:
 ![Graph](images/Deep%20Learning/Building%20a%20Basic%20Neural%20Network%20with%20Tensorflow/Screen%20Shot%202022-03-05%20at%206.29.31%20PM.png)
 
 ## [Project 14: Deep Neural Network for MNIST Classification](https://github.com/jovemmanuelre/Deep-Neural-Network-for-MNIST-Classification)
 Known as the "Hello World" of deep learning, the MNIST dataset refers to handwritten digit recognition.  The goal is to write an algorithm that detects which digit is written. Since there are only 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), this is a classification problem with 10 classes. The dataset provides 70,000 images (28x28 pixels) of handwritten digits (1 digit per image). 
 
-After tweaking my hyperparameters, here I used 5 hidden layers with 3000 hidden units each and 10 Epochs to achieve an accuracy of 97.93% percent 
+After tweaking my hyperparameters, here I used 5 hidden layers with 3000 hidden units each and 10 Epochs to achieve an accuracy of 97.93% percent.
 
-To be updated with the images
 
 ## [Project 15: Audiobooks Case with sklearn and Early Stopping](https://github.com/jovemmanuelre/Deep-Learning-Audiobooks-Case-Preprocessed-and-with-Early-Stopping)
 To be updated 
