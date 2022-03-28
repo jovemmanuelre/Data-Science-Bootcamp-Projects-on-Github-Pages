@@ -194,7 +194,7 @@ Known as the "Hello World" of deep learning, the MNIST dataset refers to handwri
 
 ![Epochs](images/Deep%20Learning/MNIST/Epochs.png)
 After tweaking my hyperparameters, here I used 5 hidden layers with 3000 hidden units each and 10 Epochs to achieve an accuracy of ~ 98%.
-![Test Accuracy](https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/blob/main/images/Deep%20Learning/MNIST/Test%20Accuracy.png)
+![Test Accuracy](images/Deep%20Learning/MNIST/Test%20Accuracy.png)
 
 
 ## [Project 15: Audiobooks Case with sklearn and Early Stopping](https://github.com/jovemmanuelre/Deep-Learning-Audiobooks-Case-Preprocessed-and-with-Early-Stopping)
@@ -206,17 +206,23 @@ This is a classification problem with two classes: won't buy and will buy, repre
 
 The features of the ML algorithm are the following: Customer ID, Book length in mins_avg (average of all purchases), Book length in minutes_sum (sum of all purchases), Price Paid_avg (average of all purchases), Price paid_sum (sum of all purchases), Review (a Boolean variable), Review (out of 10), Total minutes listened, Completion (from 0 to 1), Support requests (number), and Last visited minus purchase date (in days) over a period of 2 years.
 
+![Epochs](images/Deep%20Learning/Audiobooks/Epochs.png)
 My model achieved ~80% accuracy in predicting whether a customer will buy again from the Audiobook company.
+![Test Accuracy](images/Deep%20Learning/Audiobooks/Test%20Accuracy.png)
 
 ## Project 16: Absenteeism Case
-![Grouped Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions%20Grouped.png)
-![Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions.png)
+In this capstone project, I created a logistic regression model that will predict the probability of an individual being excessively absent from work. 
+
 ![Unprocessed Data](images/Deep%20Learning/Absenteeism/Data%20Summary%20of%20Unprocessed%20Data.png)
+
+These are the grouped features of my model:
+![Grouped Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions%20Grouped.png)
+
+I used the numerous machine learning tools and techniques I learned from the Bootcamp. I specifically used pandas to preprocess the data because it allows me to work with panel data. Moreover, pandas has various tools for handling data in a tabular format (a DataFrame). Finally as a data scientist, I want a more manual way of doing preprocessing because it gives me a higher level of control over my data.
 ![With Month and Day of the Week](images/Deep%20Learning/Absenteeism/With%20Month%20and%20Day%20of%20the%20Week.png)
+
+At the end, I stored my work as a Python module called ‘absenteeism_module’ to preserve it in a form suitable for further analysis (such as in Tableau).
 ![With Predictions](images/Deep%20Learning/Absenteeism/With%20Predictions.png)
 
-I created a logistic regression  model that will predict the probability of an individual being excessively absent from work. The logistic regression is a type of a regression model whose dependent variable is binary; that is, the latter can assume one of two values – 0 or 1, True or False, Yes or No. In this case therefore, considering the values of all the features, I wanted to predict whether the dependent variable will take the value of 0 or 1.
- 
-In addition to numerous machine learning tools and techniques, I specifically used pandas to preprocess the data because it allows me to work with panel data. Moreover, pandas has various tools for handling data in a tabular format (a DataFrame). Finally as a data scientist, I want a more manual way of doing preprocessing because it gives me a higher level of control over my data.
 
-At the end, I stored my work as a Python module called ‘absenteeism_module’ to preserve it in a form suitable for further analysis.
+# Thank you very much for taking the time to view my projects here on my website! - Jov E., 2022 March
