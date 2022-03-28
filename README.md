@@ -192,30 +192,21 @@ The graph is the same as the one in the previous exercise where I used NumPy:
 ## [Project 14: Deep Neural Network for MNIST Classification](https://github.com/jovemmanuelre/Deep-Neural-Network-for-MNIST-Classification)
 Known as the "Hello World" of deep learning, the MNIST dataset refers to handwritten digit recognition.  The goal is to write an algorithm that detects which digit is written. Since there are only 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9), this is a classification problem with 10 classes. The dataset provides 70,000 images (28x28 pixels) of handwritten digits (1 digit per image). 
 
-After tweaking my hyperparameters, here I used 5 hidden layers with 3000 hidden units each and 10 Epochs to achieve an accuracy of 97.93% percent.
+![Epochs](images/Deep%20Learning/MNIST/Epochs.png)
+After tweaking my hyperparameters, here I used 5 hidden layers with 3000 hidden units each and 10 Epochs to achieve an accuracy of ~ 98%.
+![Test Accuracy](https://github.com/jovemmanuelre/Data-Science-Bootcamp-Projects-on-Github-Pages/blob/main/images/Deep%20Learning/MNIST/Test%20Accuracy.png)
 
 
 ## [Project 15: Audiobooks Case with sklearn and Early Stopping](https://github.com/jovemmanuelre/Deep-Learning-Audiobooks-Case-Preprocessed-and-with-Early-Stopping)
-To be updated 
-
-I used data from an Audiobook app to create a machine learning algorithm can predict if a customer will buy again from the Audiobook company, based on the last 2 years of activity and engagement, a customer will convert in the next 6 months. 6 months sounds like a reasonable time. If they don't convert after 6 months, chances are they've gone to a competitor or didn't like the Audiobook way of digesting information. 
+In this Project, I worked on a dataset from an Audiobook app to create an ML algorithm that can predict if a customer will buy again from the Audiobook company and subscribe in the next 6 months, based on the last 2 years of activity and engagement. 
 
 This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s. 
 
-The main idea is that if a customer has a low probability of coming back, there is no reason to spend any money on advertizing to them, thus saving the company some money. Moreover, this model can identify the most important metrics for a customer to come back again. Identifying new customers creates value and growth opportunities.
+6 months sounds like a reasonable time: if they don't convert after 6 months, chances are they've gone to a competitor or didn't like the Audiobook way of digesting information. The main idea is that if a customer has a low probability of coming back, there is no reason to spend any money on advertizing to them, thus saving the company some money. Moreover, the algorithm can identify the most important metrics for a customer to come back again. Identifying new customers creates value and growth opportunities.
 
-The inputs are the following: Customer ID, Book length in mins_avg (average of all purchases), Book length in minutes_sum (sum of all purchases), Price Paid_avg (average of all purchases), Price paid_sum (sum of all purchases), Review (a Boolean variable), Review (out of 10), Total minutes listened, Completion (from 0 to 1), Support requests (number), and Last visited minus purchase date (in days).
+The features of the ML algorithm are the following: Customer ID, Book length in mins_avg (average of all purchases), Book length in minutes_sum (sum of all purchases), Price Paid_avg (average of all purchases), Price paid_sum (sum of all purchases), Review (a Boolean variable), Review (out of 10), Total minutes listened, Completion (from 0 to 1), Support requests (number), and Last visited minus purchase date (in days) over a period of 2 years.
 
 My model achieved ~80% accuracy in predicting whether a customer will buy again from the Audiobook company.
-
-Each customer in the database has made a purchase at least once,  We want to create a machine learning algorithm based on our available data that can predict if a customer will buy again from the Audiobook company. The main idea is that if a customer has a low probability of coming back, there is no reason to spend any money on advertising to him/her. If we can focus our efforts SOLELY on customers that are likely to convert again, we can make great savings. Moreover, this model can identify the most important metrics for a customer to come back again. Identifying new customers creates value and growth opportunities.
-
-You have a .csv summarizing the data. There are several variables: Customer ID, ), Book length overall (sum of the minute length of all purchases), Book length avg (average length in minutes of all purchases), Price paid_overall (sum of all purchases) ,Price Paid avg (average of all purchases), Review (a Boolean variable whether the customer left a review), Review out of 10 (if the customer left a review, his/her review out of 10, Total minutes listened, Completion (from 0 to 1), Support requests (number of support requests; everything from forgotten password to assistance for using the App), and Last visited minus purchase date (in days).
-
-The targets are a Boolean variable (0 or 1). We are taking a period of 2 years in our inputs, and the next 6 months as targets. So, in fact, we are predicting if: based on the last 2 years of activity and engagement, a customer will convert in the next 6 months. 6 months sounds like a reasonable time. If they don't convert after 6 months, chances are they've gone to a competitor or didn't like the Audiobook way of digesting information. 
-
-
-This is a classification problem with two classes: won't buy and will buy, represented by 0s and 1s. 
 
 ## Project 16: Absenteeism Case
 ![Grouped Feature Descriptions](images/Deep%20Learning/Absenteeism/Absenteeism%20Feature%20Descriptions%20Grouped.png)
